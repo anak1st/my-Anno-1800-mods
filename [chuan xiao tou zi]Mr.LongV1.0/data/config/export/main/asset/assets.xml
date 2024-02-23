@@ -1,0 +1,557 @@
+<ModOps>
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Values>
+        <Standard>
+          <Comments />
+          <Version>main</Version>
+          <GUID>1400000006</GUID>
+          <Name>chuanxiaotouzi</Name>
+          <IconFilename>data/modgraphics/icons/icon_chuanxiaotouzi.png</IconFilename>
+          <InfoDescription>21354</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Feras Alsarami the Persuader</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <Localize>1</Localize>
+          <TextOverride>0</TextOverride>
+          <LineID>29139</LineID>
+        </Text>
+        <Item>
+          <ExclusiveGroup>None</ExclusiveGroup>
+          <ItemSet>0</ItemSet>
+          <ExpeditionType>None</ExpeditionType>
+          <Flotsam>1000212</Flotsam>
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+          <SocketOverwriteSound>0</SocketOverwriteSound>
+          <UnsocketOverwriteSound>0</UnsocketOverwriteSound>
+          <BroadcastMusicEvent>0</BroadcastMusicEvent>
+          <ItemFilterCategory>0</ItemFilterCategory>
+          <ScenarioFilter>0</ScenarioFilter>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+          <ReapplyEffects>EmpireOfTheSkies</ReapplyEffects>
+          <MaxStackSize>1</MaxStackSize>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>1</TradePrice>
+          <Rarity>Legendary</Rarity>
+          <Allocation>GuildHouse</Allocation>
+        </Item>
+        <FactoryUpgrade>
+          <OutputAmountFactorUpgrade />
+          <MaxWorkerAmountUpgrade />
+          <ProductivityUpgrade>
+            <Value>200</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <InputAmountUpgrade />
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <BuildingDecoration>0</BuildingDecoration>
+          <AllowStacking>1</AllowStacking>
+          <EffectTargets>
+            <Item>
+              <GUID>193856</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>0</CanEndItemAction>
+          <ItemAction>NOACTION</ItemAction>
+          <ActionTarget>0</ActionTarget>
+          <IncidentResolveRate>0.3</IncidentResolveRate>
+          <ActiveBuff>0</ActiveBuff>
+          <ActionDescription>0</ActionDescription>
+          <ActionCompletedEffect />
+          <StopMovementOnInteraction>1</StopMovementOnInteraction>
+          <ActivateActionSound>0</ActivateActionSound>
+          <DeactivateActionSound>0</DeactivateActionSound>
+        </ItemAction>
+        <ResidenceUpgrade>
+        </ResidenceUpgrade>
+        <PopulationUpgrade>
+        </PopulationUpgrade>
+        <IndustrializableUpgrade>
+          <ProvidedIndustrializationType>Powerplant</ProvidedIndustrializationType>
+          <ElectricityBoostUpgrade />
+          <ProvideIndustrialization>1</ProvideIndustrialization>
+        </IndustrializableUpgrade>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+          <DLCDependency>0</DLCDependency>
+          <Scope>Participant</Scope>
+        </Locked>
+        <Buff>
+          <PossibleFluffTexts />
+          <AddedInfolayer>0</AddedInfolayer>
+          <ShortName>0</ShortName>
+        </Buff>
+        <EcoSystemProviderUpgrade>
+          <DeltaValueUpgrade />
+        </EcoSystemProviderUpgrade>
+        <InfluenceSourceUpgrade />
+        <DivingBellUpgrade>
+          <RarityWeightUpgrade />
+          <AllocationWeightUpgrade />
+        </DivingBellUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>21354</FluffText>
+        </ExpeditionAttribute>
+        <ItemContainerUpgrade />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <VehicleUpgrade />
+        <TradeShipUpgrade />
+        <AttackerUpgrade />
+        <AttackableUpgrade>
+          <DamageReceiveFactor />
+        </AttackableUpgrade>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>-25</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-25</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade />
+        <KontorUpgrade />
+        <CraftableItem />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentRiotIncreaseUpgrade>
+            <Value>-99</Value>
+            <Percental>1</Percental>
+          </IncidentRiotIncreaseUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>-99</Value>
+            <Percental>1</Percental>
+          </IncidentFireIncreaseUpgrade>
+          <IncidentIllnessIncreaseUpgrade>
+            <Value>-99</Value>
+            <Percental>1</Percental>
+          </IncidentIllnessIncreaseUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>-99</Value>
+            <Percental>1</Percental>
+          </IncidentExplosionIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <ShipyardUpgrade>
+          <AddAssemblyOptions />
+        </ShipyardUpgrade>
+      </Values>
+      <Template>GuildhouseItem</Template>
+      <ModTool>
+        <ModToolVersion>12.11.2022</ModToolVersion>
+        <ModToolTrigger>3;;;;;15000002;500;15000002;500</ModToolTrigger>
+        <ModToolAuthor>Pogobuckel</ModToolAuthor>
+        <ModToolItemOrigin>190167;;190168;;190774;;190306;;190305;;190304;;127466;;127476;;127480;;127479;;127478;;127477;;190354;;190355;;192070;;190358;;190357;;190356;;193322;;193323;;193327;;193326;;193325;;193324;;193830;;193831;;193835;;193834;;193833;;193832;;192071;;192067;;192066;;192065;;190554;;190555;;192068;;190387;;190367;;190556;;193447;;193448;;193452;;193451;;193450;;193449;;192073;;192072;;190363;;190362;;190162;;190163;;192069;;190166;;190165;;190164;</ModToolItemOrigin>
+        <ModToolItemCraftable>0;0</ModToolItemCraftable>
+      </ModTool>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1400000008</GUID>
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1400000006</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1400000006</Asset>
+                        <!-- 传销头子法瑞斯·阿瑟雷密 -->
+                      </Item>
+                    </UnlockAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="190167" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190168" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190774" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190306" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190305" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190304" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127466" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127476" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127480" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127479" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127478" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="127477" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190354" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190355" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192070" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190358" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190357" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190356" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193322" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193323" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193327" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193326" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193325" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193324" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193830" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193831" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193835" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193834" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193833" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193832" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192071" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192067" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192066" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192065" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190554" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190555" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192068" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190387" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190367" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190556" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193447" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193448" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193452" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193451" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193450" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193449" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192073" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192072" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190363" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190362" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190162" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190163" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192069" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190166" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190165" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190164" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1400000006</ItemLink>
+      <Weight>50</Weight>
+    </Item>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,159 @@
+<ModOps>
+	
+ 	<!-- 公交站范围--->
+	<ModOp Type="merge" GUID='601326' Path="/Values/BusStop">
+		
+		<ActivationRadius>30</ActivationRadius><!-- 影响半径 -->
+		<StreetConnectionRange>50</StreetConnectionRange><!-- 影响路径 -->
+		
+	</ModOp>
+	
+
+ <!-- 餐厅食谱覆盖范围 -->
+	<ModOp Type="merge" GUID='132780,132747,132750,133340,133341,133339,6136' Path="/Values/BuffFactory">
+		
+			
+			<ProductionBuffScope>Radius</ProductionBuffScope>
+		  <ProductionBuffDistance>100</ProductionBuffDistance>
+	
+	</ModOp>  
+	
+	 <!-- 酒吧食谱覆盖范围 -->
+	<ModOp Type="merge" GUID='132781,133343,133346,133345,132752,133342,6137' Path="/Values/BuffFactory">
+		
+			
+			<ProductionBuffScope>Radius</ProductionBuffScope>
+		  <ProductionBuffDistance>100</ProductionBuffDistance>
+      
+		
+	</ModOp> 
+	  
+	
+	 <!-- 咖啡厅食谱覆盖范围 -->
+	<ModOp Type="merge" GUID='132782,133349,132753,133348,133347,133350,6138' Path="/Values/BuffFactory">
+		
+			
+			<ProductionBuffScope>Radius</ProductionBuffScope>
+		  <ProductionBuffDistance>100</ProductionBuffDistance> 		  
+		
+	</ModOp>   
+	
+	<!-- 铁塔食谱覆盖范围 -->
+	<ModOp Type="add" GUID='132770,133928,133930,133931,133932,133933' Path="/Values/BuffFactory">
+					
+			<ProductionBuffScope>Radius</ProductionBuffScope>
+		  <ProductionBuffDistance>100</ProductionBuffDistance> 			  
+		
+	</ModOp> 
+	
+	
+	<!-- 百货公司产品覆盖范围 -->
+	<ModOp Type="merge" GUID='135100,135189,135190,135103,135187,135188' Path="/Values/BuffFactory">
+	
+			    <ProductionBuffScope>Radius</ProductionBuffScope>
+		      <ProductionBuffDistance>100</ProductionBuffDistance>
+		  
+	</ModOp>  
+	
+	<ModOp Type="merge" GUID='135189,135190,135103,135187,135188' Path="/Values/BuffFactory/PublicServiceData">
+		
+
+          <FullSatisfactionDistance>100</FullSatisfactionDistance>
+          <NoSatisfactionDistance>100</NoSatisfactionDistance>
+
+		
+	</ModOp>   
+
+
+	 <!-- 家具店产品覆盖范围 -->
+	<ModOp Type="merge" GUID='135099,135120,135121,135122,135123,135105' Path="/Values/BuffFactory">
+		
+			     <ProductionBuffScope>Radius</ProductionBuffScope>
+		       <ProductionBuffDistance>100</ProductionBuffDistance>
+
+	</ModOp>   
+	<ModOp Type="merge" GUID='135120,135121,135122,135123,135105' Path="/Values/BuffFactory/PublicServiceData">
+		
+	
+          <FullSatisfactionDistance>100</FullSatisfactionDistance>
+          <NoSatisfactionDistance>100</NoSatisfactionDistance>
+ 
+		
+	</ModOp> 
+
+	 <!--  药局产品覆盖范围 -->
+	<ModOp Type="merge" GUID='134629,135194,135193,135192,135191,134631' Path="/Values/BuffFactory">
+		
+			    <ProductionBuffScope>Radius</ProductionBuffScope>
+		      <ProductionBuffDistance>100</ProductionBuffDistance>
+		
+	</ModOp>
+	<ModOp Type="merge" GUID='135194,135193,135192,135191,134631' Path="/Values/BuffFactory/PublicServiceData">
+		
+	
+          <FullSatisfactionDistance>100</FullSatisfactionDistance>
+          <NoSatisfactionDistance>100</NoSatisfactionDistance>
+
+		
+	</ModOp>
+	
+	
+	<!--  旧世界邮局覆盖范围 -->
+	<ModOp Type="merge" GUID='3741' Path="/Values/ItemContainer">
+		
+	    <SocketScopeRadius>50</SocketScopeRadius>
+
+		
+	</ModOp> 
+	<!--  旧世界邮筒覆盖范围 -->
+	<ModOp Type="merge" GUID='538' Path="/Values/ItemContainer">
+		
+	    <SocketScopeRadius>30</SocketScopeRadius>
+
+		
+	</ModOp> 	
+	
+	<!--  新世界邮局覆盖范围 -->
+	<ModOp Type="merge" GUID='3761' Path="/Values/ItemContainer">
+		
+	    <SocketScopeRadius>50</SocketScopeRadius>
+
+		
+	</ModOp>
+	<ModOp Type="merge" GUID='3661' Path="/Values/ItemContainer">
+		
+	    <SocketScopeRadius>30</SocketScopeRadius>
+
+		
+	</ModOp> 
+	
+	<!--  北极邮局覆盖范围 -->
+	<ModOp Type="merge" GUID='4260' Path="/Values/ItemContainer">
+		
+	    <SocketScopeRadius>50</SocketScopeRadius>
+	
+	</ModOp>
+	
+	<!-- 庄园肥料站范围覆盖全岛 -->
+	<ModOp Type="merge" GUID="24805" Path="/Values/BuffFactory">
+		
+        <BaseBuffScope>Area</BaseBuffScope>
+        
+  </ModOp>
+  
+  <!-- 庄园路无限制 -->
+  <ModOp Type="replace" GUID='24768' Path="/Values/ModuleOwner/ModuleLimits">
+        
+  	
+  </ModOp>
+  
+  <!-- 庄园影响范围变大 -->
+  <ModOp Type="add" GUID='24768' Path="/Values/PublicService">
+  	   
+  	   <FullSatisfactionDistance>500</FullSatisfactionDistance>
+		   <NoSatisfactionDistance>500</NoSatisfactionDistance> 	       
+  	
+  </ModOp>
+	
+
+</ModOps>

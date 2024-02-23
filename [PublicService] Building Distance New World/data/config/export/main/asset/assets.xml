@@ -1,0 +1,60 @@
+<ModOps>
+	
+		<!-- 新世界市场范围 -->
+	<ModOp Type="merge" GUID="101257" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 小礼拜堂范围 -->
+	<ModOp Type="merge" GUID="101258" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+  <!-- 拳击场范围 -->
+	<ModOp Type="add" GUID="101259" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+  <!-- 新世界戏院范围 -->
+	<ModOp Type="merge" GUID="6018" Path="/Values/BuffFactory/PublicServiceData">
+		
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+         
+    </ModOp>
+      
+  <!-- 新世界森巴学校范围 -->
+	<ModOp Type="merge" GUID="5840" Path="/Values/BuffFactory/PublicServiceData">
+		
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+         
+  </ModOp>
+     
+	<!-- 新世界旅游海滩初始范围 -->
+	<ModOp Type="merge" GUID="6264" Path="/Values/BuffFactory/PublicServiceData">
+		
+		<FullSatisfactionDistance>300</FullSatisfactionDistance>
+    <NoSatisfactionDistance>300</NoSatisfactionDistance>
+		
+	</ModOp>
+	
+	  <!-- 新世界发电厂范围 -->
+	<ModOp Type="merge" GUID="5164" Path="/Values/Powerplant">
+		
+		<IndustrializationDistance>100</IndustrializationDistance>
+		
+	</ModOp>
+	
+	<ModOp Type="merge" GUID="5164" Path="/Values/PublicService">
+		
+		<FullSatisfactionDistance>100</FullSatisfactionDistance>
+		<NoSatisfactionDistance>100</NoSatisfactionDistance>
+		
+	</ModOp>
+   
+
+</ModOps>

@@ -1,0 +1,37 @@
+<ModOps>
+	
+		<!-- 膳食房范围 -->
+	<ModOp Type="merge" GUID="114889" Path="/Values/PublicService">
+		
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+        
+  </ModOp>
+    
+    <!-- 暖炉范围 -->
+	<ModOp Type="add" GUID="114751" Path="/Values">
+		
+		<HeatProvider>		
+			<HeatRange>30</HeatRange>
+		</HeatProvider>
+        
+  </ModOp>
+    
+  <!-- 旧邮局范围 -->
+	<ModOp Type="merge" GUID="112684" Path="/Values/PublicService">
+		
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+        
+  </ModOp>
+  
+  <!-- 新邮局影响范围 -->
+	<ModOp Type="merge" GUID="4260" Path="/Values/PublicService">
+		
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+        
+  </ModOp>
+   
+
+</ModOps>

@@ -1,0 +1,65 @@
+<ModOps>
+	
+		<!-- 市场范围 -->
+	<ModOp Type="merge" GUID="114518" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+    <!-- 音乐喷泉范围 -->
+	<ModOp Type="merge" GUID="114519" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+    <!-- 修道院范围 -->
+	<ModOp Type="merge" GUID="114520" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+  <!--水泵容量-->
+	<ModOp Type="merge" GUID="114544" Path="/Values/IrrigationSource">
+		
+        <PipeFillCapacity>750</PipeFillCapacity>
+        
+  </ModOp>
+    
+	<!--灌溉面积-->
+	<ModOp Type="merge" GUID="114759" Path="/Values/IrrigationConfig/IrrigationTiles/IrrigationTileDefinitions">
+		
+		<Source_River>
+			<SourceSpreadMin>8</SourceSpreadMin>
+			<SourceSpredMax>8</SourceSpredMax>
+			<TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+		</Source_River>
+		
+		<Source_Canal>
+			<SourceSpreadMin>8</SourceSpreadMin>
+			<SourceSpredMax>8</SourceSpredMax>
+			<TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+		</Source_Canal>
+		
+		<Source_Lake_Small>
+			<SourceSpreadMin>8</SourceSpreadMin>
+			<SourceSpredMax>10</SourceSpredMax>
+			<TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+		</Source_Lake_Small>
+		
+		<Source_Lake_Medium>
+			<SourceSpreadMin>8</SourceSpreadMin>
+			<SourceSpredMax>12</SourceSpredMax>
+			<TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+		</Source_Lake_Medium>
+		
+		<Source_Lake_Large>
+			<SourceSpreadMin>12</SourceSpreadMin>
+			<SourceSpredMax>15</SourceSpredMax>
+			<TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+		</Source_Lake_Large>
+		
+    </ModOp>	
+
+  
+	
+</ModOps>

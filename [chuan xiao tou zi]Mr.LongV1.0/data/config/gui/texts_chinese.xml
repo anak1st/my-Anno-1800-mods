@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400000006</GUID>
+      <Text>传销头子法瑞斯·阿瑟雷密</Text>
+    </Text>
+    <Text>
+      <GUID>21354</GUID>
+      <Text>传销登峰造极的人！增加生产力、减少维护费、人力、防火防爆防病！</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,160 @@
+<ModOps>
+	
+	<!-- 半径种植森林类建筑无需种植森林 --> 
+	
+	<!-- 旧世界--炭窑--> 
+	<ModOp Type="add" GUID = '1010298' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界--炭窑--> 
+	<ModOp Type="add" GUID = '24860,2396,1345' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 北极--炭窑--> 
+	<ModOp Type="add" GUID = '114705' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	
+	
+	<!-- 旧世界--伐木工人棚屋--> 
+	<ModOp Type="merge" GUID = '1010266,24657' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界--伐木工人棚屋--> 
+	<ModOp Type="merge" GUID = '101260' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 北极--伐木工人棚屋--> 
+	<ModOp Type="merge" GUID = '114703' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 非洲--万扎工人棚屋--> 
+	<ModOp Type="merge" GUID = '122963' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 旧世界--狩猎小屋--> 
+	<ModOp Type="add" GUID = '1010558' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 北极--狩猎小屋--> 
+	<ModOp Type="add" GUID = '116034' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 北极-驯鹿猎人小屋--> 
+	<ModOp Type="add" GUID = '112667' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 北极-熊猎人小屋--> 
+	<ModOp Type="add" GUID = '112673' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	
+	
+	<!-- 新世界-工业榨油机--> 
+	<ModOp Type="add" GUID = '1418' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	
+	<!-- 旧世界-果园建筑--> 
+	<ModOp Type="merge" GUID = '132933' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 旧世界-果园--果酱--> 
+	<ModOp Type="merge" GUID = '133496' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 旧世界-果园--树脂--> 
+	<ModOp Type="merge" GUID = '135085' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 旧世界-果园--樱桃木--> 
+	<ModOp Type="merge" GUID = '135088' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	
+	<!-- 新世界-果园建筑--> 
+	<ModOp Type="merge" GUID = '133010' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界-果园--橘子--> 
+	<ModOp Type="merge" GUID = '133031' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界-果园--肉桂--> 
+	<ModOp Type="merge" GUID = '133030' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界-果园--椰子油--> 
+	<ModOp Type="merge" GUID = '133004' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+	<!-- 新世界-果园--樟脑油--> 
+	<ModOp Type="merge" GUID = '134614' Path="Values/FreeAreaProductivity" >
+		
+			<NeededAreaPercent>0</NeededAreaPercent>	
+					 
+	</ModOp>
+	
+
+	
+</ModOps>

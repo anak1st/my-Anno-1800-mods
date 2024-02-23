@@ -1,0 +1,12 @@
+<ModOps>
+	
+	<!-- ×¯Ô°³õÊ¼·¶Î§ -->
+  <ModOp Type="merge" Path="//Template[Name = 'Hacienda']/Properties/Hacienda">
+  	
+          <HaciendaRadius>500</HaciendaRadius> 
+          	
+  </ModOp>
+
+  
+</ModOps>
+

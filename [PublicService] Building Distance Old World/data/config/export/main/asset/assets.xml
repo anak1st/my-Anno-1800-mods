@@ -1,0 +1,98 @@
+<ModOps>
+	
+		<!-- 市场范围 -->
+	<ModOp Type="merge" GUID="1010372" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 酒馆范围 -->
+	<ModOp Type="merge" GUID="1010358" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 学校范围 -->
+	<ModOp Type="merge" GUID="1010360" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 教堂范围 -->
+	<ModOp Type="merge" GUID="1010359" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 剧场范围 -->
+	<ModOp Type="merge" GUID="1010361" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+    <!-- 大学范围 -->
+	<ModOp Type="merge" GUID="1010362" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+    </ModOp>
+    
+    <!-- 银行范围 -->
+	<ModOp Type="merge" GUID="1010365" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+    <!-- 俱乐部范围 -->
+	<ModOp Type="merge" GUID="1010364" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+
+    <!-- 无线电塔范围 -->
+	<ModOp Type="merge" GUID="118736" Path="/Values/PublicService">
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+  </ModOp>
+    
+	<!-- 燃油发电厂范围 -->
+	
+	<ModOp Type="merge" GUID="100780" Path="/Values/Powerplant">
+		
+		<IndustrializationDistance>100</IndustrializationDistance>
+		
+	</ModOp>
+	
+	<ModOp Type="add" GUID="100780" Path="/Values/PublicService">
+		
+		<FullSatisfactionDistance>100</FullSatisfactionDistance>
+		<NoSatisfactionDistance>100</NoSatisfactionDistance>
+		
+	</ModOp>
+	
+	
+	<!-- 燃气发电厂范围 -->
+	
+	<ModOp Type="merge" GUID="117547" Path="/Values/Powerplant">
+		
+		<IndustrializationDistance>150</IndustrializationDistance>
+		
+	</ModOp>
+	
+	<ModOp Type="merge" GUID="117547" Path="/Values/PublicService">
+		
+		<FullSatisfactionDistance>150</FullSatisfactionDistance>
+		<NoSatisfactionDistance>150</NoSatisfactionDistance>
+		
+	</ModOp>
+	
+	
+	<!-- 宫殿主殿全岛覆盖 -->     
+  <ModOp Type="merge" GUID='249947' Path="/Values/Palace">
+    	
+        <BaseStreetRange>800</BaseStreetRange>
+        <AdditionalStreetRangePerModule>2</AdditionalStreetRangePerModule>
+        
+  </ModOp> 
+        
+  
+</ModOps>
